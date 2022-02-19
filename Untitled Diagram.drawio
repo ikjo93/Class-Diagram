@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-19T18:16:33.228Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="aOEPOouVA0LCwyxqibC2" version="16.6.1" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-02-19T18:17:32.554Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="hWflgFltm5h0efe76jJa" version="16.6.1" type="github" pages="4">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="965" dy="597" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -369,7 +369,7 @@
         <mxCell id="i1lmF4uudPjXsE6t047N-18" value="VideoData" style="rounded=0;whiteSpace=wrap;html=1;" parent="i1lmF4uudPjXsE6t047N-1" vertex="1">
           <mxGeometry x="221" y="394" width="90" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="i1lmF4uudPjXsE6t047N-20" value="4. 영상 정보 헤드 생성" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="i1lmF4uudPjXsE6t047N-1" vertex="1">
+        <mxCell id="i1lmF4uudPjXsE6t047N-20" value="4. 영상 정보 헤드 요청" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="i1lmF4uudPjXsE6t047N-1" vertex="1">
           <mxGeometry x="271" y="353" width="159" height="30" as="geometry" />
         </mxCell>
       </root>
