@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-10-04T10:18:42.242Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="ghx_k14ROy-xW3s_xnKL" version="20.3.7" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2023-03-29T15:54:54.894Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="sXcIuuD1drAkrSR_t5F6" version="21.1.2" type="github" pages="11">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="965" dy="597" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1114" dy="584" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -1323,7 +1323,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="8GHEa2CWujxH-1emrp1j" name="Page-9">
-    <mxGraphModel dx="965" dy="597" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="1114" dy="584" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1354,16 +1354,10 @@
     </mxGraphModel>
   </diagram>
   <diagram id="LhiszkK53sEM0ZZQSTiE" name="페이지-10">
-    <mxGraphModel dx="1049" dy="597" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="1591" dy="834" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="LJAnspjw1zkU0TxL8H6h-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="615.7983218922334" y="900" as="targetPoint" />
-            <mxPoint x="567" y="900" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="LJAnspjw1zkU0TxL8H6h-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="LJAnspjw1zkU0TxL8H6h-2" target="LJAnspjw1zkU0TxL8H6h-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -1426,7 +1420,7 @@
           <mxGeometry x="631.75" y="304" width="93" height="30" as="geometry" />
         </mxCell>
         <mxCell id="LJAnspjw1zkU0TxL8H6h-44" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
-          <mxGeometry x="87.25" y="193" width="30" height="60" as="geometry" />
+          <mxGeometry x="93" y="193" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="LJAnspjw1zkU0TxL8H6h-48" value="마일스톤&lt;br&gt;생성" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="764" y="472" width="82" height="63.5" as="geometry" />
@@ -1464,8 +1458,61 @@
         <mxCell id="LJAnspjw1zkU0TxL8H6h-60" value="이슈 생성" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="421.25" y="349" width="82" height="63.5" as="geometry" />
         </mxCell>
-        <mxCell id="rUQYhLu0QtIw3Twx2nwM-1" value="이슈 동적 검색" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="rUQYhLu0QtIw3Twx2nwM-1" value="이슈 동적 검색" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="422" y="212" width="82" height="63.5" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="aCosGilYMekaO1BERw1m" name="페이지-11">
+    <mxGraphModel dx="1114" dy="584" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="eULvsdaWDjWC5J3yfbNX-1" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="62" y="224" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eULvsdaWDjWC5J3yfbNX-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="eULvsdaWDjWC5J3yfbNX-4" target="eULvsdaWDjWC5J3yfbNX-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eULvsdaWDjWC5J3yfbNX-4" value="지역별 관광지 보기" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="197" y="133" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="eULvsdaWDjWC5J3yfbNX-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="eULvsdaWDjWC5J3yfbNX-5" target="eULvsdaWDjWC5J3yfbNX-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eULvsdaWDjWC5J3yfbNX-5" value="시/군구/유형 선택" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="399" y="133" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="eULvsdaWDjWC5J3yfbNX-6" value="해당 관광지 조회" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="617" y="133" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="eULvsdaWDjWC5J3yfbNX-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="eULvsdaWDjWC5J3yfbNX-7" target="eULvsdaWDjWC5J3yfbNX-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eULvsdaWDjWC5J3yfbNX-7" value="여행 계획" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="197" y="300" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="eULvsdaWDjWC5J3yfbNX-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="eULvsdaWDjWC5J3yfbNX-8" target="eULvsdaWDjWC5J3yfbNX-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eULvsdaWDjWC5J3yfbNX-8" value="여행 계획 경로 설정" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="399" y="300" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="eULvsdaWDjWC5J3yfbNX-9" value="타임라인 조회" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="617" y="300" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="eULvsdaWDjWC5J3yfbNX-10" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="eULvsdaWDjWC5J3yfbNX-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="92" y="244" as="sourcePoint" />
+            <mxPoint x="142" y="194" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eULvsdaWDjWC5J3yfbNX-11" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="eULvsdaWDjWC5J3yfbNX-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="92" y="244" as="sourcePoint" />
+            <mxPoint x="142" y="194" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
