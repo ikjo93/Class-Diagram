@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-18T15:41:43.659Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="qfpxADInIEvnDa_C0aRn" version="24.0.7" type="github" pages="14">
+<mxfile host="app.diagrams.net" modified="2024-03-18T15:45:21.188Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="4K5yd51nuZyw3Bl5bn6P" version="24.0.7" type="github" pages="14">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1674" dy="746" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1403,9 +1403,9 @@
           <mxGeometry x="741" y="343" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="awD6k9S9JyxX-UrnHaSg-25" value="XSS 방지 서블릿 필터 구현체" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;dashed=1;" parent="1" vertex="1">
-          <mxGeometry x="442" y="138" width="185" height="29" as="geometry" />
+          <mxGeometry x="447.25" y="132" width="185" height="29" as="geometry" />
         </mxCell>
-        <mxCell id="FhqBD0IAWlXFvJUCkCiD-1" value="XSS 방지 서블릿 필터 동작부" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;dashed=1;" vertex="1" parent="1">
+        <mxCell id="FhqBD0IAWlXFvJUCkCiD-1" value="XSS 방지 필터 제어부" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="444.5" y="282" width="190.5" height="29" as="geometry" />
         </mxCell>
         <mxCell id="FhqBD0IAWlXFvJUCkCiD-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=diamondThin;startFill=1;endArrow=open;endFill=0;" edge="1" parent="1" source="FhqBD0IAWlXFvJUCkCiD-2" target="awD6k9S9JyxX-UrnHaSg-16">
@@ -1417,14 +1417,17 @@
         <mxCell id="FhqBD0IAWlXFvJUCkCiD-6" value="XSS 방지 서블릿 필터&lt;div&gt;파라미터 접근부&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="69.13" y="392" width="175.75" height="38" as="geometry" />
         </mxCell>
-        <mxCell id="FhqBD0IAWlXFvJUCkCiD-7" value="XSS 방지 서블릿 필터 관련 설정 파일" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;dashed=1;" vertex="1" parent="1">
+        <mxCell id="FhqBD0IAWlXFvJUCkCiD-7" value="XSS 방지 필터 관련 설정 파일" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="273.75" y="685" width="219.5" height="31" as="geometry" />
         </mxCell>
-        <mxCell id="FhqBD0IAWlXFvJUCkCiD-8" value="XSS 방지 서블릿 필터&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;설정부&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;dashed=1;" vertex="1" parent="1">
+        <mxCell id="FhqBD0IAWlXFvJUCkCiD-8" value="XSS 방지 필터&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;설정부&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="132" y="512" width="178" height="38" as="geometry" />
         </mxCell>
-        <mxCell id="FhqBD0IAWlXFvJUCkCiD-9" value="XSS 방지 서블릿 필터 동작부" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="917" y="362" width="190.5" height="29" as="geometry" />
+        <mxCell id="FhqBD0IAWlXFvJUCkCiD-9" value="XSS 방지 필터 동작 규칙&lt;div&gt;(URL, Parameter)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="872" y="351.5" width="217" height="40.5" as="geometry" />
+        </mxCell>
+        <mxCell id="FhqBD0IAWlXFvJUCkCiD-10" value="XSS 방지 필터 동작부" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="872" y="483" width="190.5" height="29" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
