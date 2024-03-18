@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-18T15:23:01.805Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="xE4W56sPrdpNpiyrf2Eg" version="24.0.2" type="github" pages="14">
+<mxfile host="app.diagrams.net" modified="2024-03-18T15:28:09.352Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="gup-ZOhvaZmpBFdT1lRx" version="24.0.2" type="github" pages="14">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1674" dy="746" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1332,31 +1332,31 @@
         </mxCell>
         <mxCell id="awD6k9S9JyxX-UrnHaSg-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;dashed=1;endArrow=block;endFill=0;" edge="1" parent="1" source="-0MqIqEH4uYSXGzK6T9m-2" target="-0MqIqEH4uYSXGzK6T9m-7">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="621" y="586" as="sourcePoint" />
+            <mxPoint x="618" y="573" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="-0MqIqEH4uYSXGzK6T9m-2" value="XssPreventerDefender" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="546" y="617" width="133" height="60" as="geometry" />
+          <mxGeometry x="543" y="604" width="133" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-0MqIqEH4uYSXGzK6T9m-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;endArrow=block;endFill=0;" parent="1" source="-0MqIqEH4uYSXGzK6T9m-5" target="-0MqIqEH4uYSXGzK6T9m-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-0MqIqEH4uYSXGzK6T9m-5" value="XssFilterDefender" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="744" y="617" width="120" height="60" as="geometry" />
+          <mxGeometry x="741" y="604" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-0MqIqEH4uYSXGzK6T9m-7" value="Defender" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="744" y="479" width="120" height="60" as="geometry" />
+          <mxGeometry x="741" y="466" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="awD6k9S9JyxX-UrnHaSg-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=block;endFill=0;dashed=1;" edge="1" parent="1" source="awD6k9S9JyxX-UrnHaSg-11" target="-0MqIqEH4uYSXGzK6T9m-7">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1011" y="578" />
-              <mxPoint x="804" y="578" />
+              <mxPoint x="1008" y="565" />
+              <mxPoint x="801" y="565" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="awD6k9S9JyxX-UrnHaSg-11" value="XssSaxFilterDefender" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="940" y="617" width="131" height="60" as="geometry" />
+          <mxGeometry x="937" y="604" width="131" height="60" as="geometry" />
         </mxCell>
         <mxCell id="awD6k9S9JyxX-UrnHaSg-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=block;endFill=0;" edge="1" parent="1" source="awD6k9S9JyxX-UrnHaSg-14">
           <mxGeometry relative="1" as="geometry">
@@ -1371,6 +1371,12 @@
         </mxCell>
         <mxCell id="awD6k9S9JyxX-UrnHaSg-16" value="XssEscapeFilter" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="318" y="318" width="133" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="awD6k9S9JyxX-UrnHaSg-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=diamondThin;startFill=1;endArrow=open;endFill=0;" edge="1" parent="1" source="awD6k9S9JyxX-UrnHaSg-18" target="-0MqIqEH4uYSXGzK6T9m-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="awD6k9S9JyxX-UrnHaSg-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=open;endFill=0;" edge="1" parent="1" source="awD6k9S9JyxX-UrnHaSg-18" target="awD6k9S9JyxX-UrnHaSg-22">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="awD6k9S9JyxX-UrnHaSg-18" value="XssEscapeFilterConfig" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="318" y="466" width="133" height="60" as="geometry" />
@@ -1389,6 +1395,12 @@
             <mxPoint x="382" y="526" as="sourcePoint" />
             <mxPoint x="382" y="614" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="awD6k9S9JyxX-UrnHaSg-22" value="XssEscapeFilterRule" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="741" y="343" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="awD6k9S9JyxX-UrnHaSg-25" value="XSS 필터 방지 서블릿 필터" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="468" y="188" width="185" height="29" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
