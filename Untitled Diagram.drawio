@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-18T16:19:27.656Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="wTj7KQNflHNbp7ZLq5GP" version="24.0.7" type="github" pages="14">
+<mxfile host="app.diagrams.net" modified="2024-03-18T16:27:39.460Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="32g-k3HvDcRPZ11_8NqR" version="24.0.7" type="github" pages="14">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1674" dy="746" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1484,13 +1484,25 @@
           <mxGeometry x="1185" y="1126" width="125" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FhqBD0IAWlXFvJUCkCiD-25" value="Controller&lt;div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="987.5" y="1213" width="125" height="60" as="geometry" />
+          <mxGeometry x="987.5" y="1244" width="125" height="29" as="geometry" />
         </mxCell>
         <mxCell id="FhqBD0IAWlXFvJUCkCiD-32" value="필터 순차적 핸들링" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="206.5" y="1201" width="112" height="30" as="geometry" />
         </mxCell>
         <mxCell id="FhqBD0IAWlXFvJUCkCiD-34" value="XSS 방지 서블릿 필터 동작&lt;div&gt;1. XssEscapeFilterWrapper 초기화&lt;/div&gt;&lt;div&gt;2. ServletRequest 객체 및 URL 추출&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="322.5" y="1209" width="196.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FhqBD0IAWlXFvJUCkCiD-35" value="스크립트문 관련 문자 치환" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1171" y="1195" width="153" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FhqBD0IAWlXFvJUCkCiD-36" value="HTTP 요청 핸들링" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="562" y="1195" width="121" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FhqBD0IAWlXFvJUCkCiD-37" value="핸들러 메서드 인자 추출 및 바인딩" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="716" y="1195" width="207" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FhqBD0IAWlXFvJUCkCiD-38" value="파라미터 추출 및&amp;nbsp;&lt;div&gt;XSS 방지 필터 제어부 호출&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="973.5" y="1195" width="153" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
