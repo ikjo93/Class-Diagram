@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-18T16:27:39.460Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="32g-k3HvDcRPZ11_8NqR" version="24.0.7" type="github" pages="14">
+<mxfile host="app.diagrams.net" modified="2024-03-18T16:55:52.155Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="Swb8frarm-64s8J0WIQv" version="24.0.7" type="github" pages="14">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1674" dy="746" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1323,7 +1323,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="8GHEa2CWujxH-1emrp1j" name="Page-9">
-    <mxGraphModel dx="1434" dy="746" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="1396" dy="830" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1503,6 +1503,15 @@
         </mxCell>
         <mxCell id="FhqBD0IAWlXFvJUCkCiD-38" value="파라미터 추출 및&amp;nbsp;&lt;div&gt;XSS 방지 필터 제어부 호출&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="973.5" y="1195" width="153" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FhqBD0IAWlXFvJUCkCiD-39" value="문자열에서 HTML 인식 요소 제거" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="511" y="680" width="190.5" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="FhqBD0IAWlXFvJUCkCiD-40" value="화이트 리스트 방식 기반으로&amp;nbsp;&lt;div&gt;허용된 HTML 요소만을 추출&lt;/div&gt;&lt;div&gt;(DOM 방식으로 XML 읽음)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="711" y="685" width="190.5" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="FhqBD0IAWlXFvJUCkCiD-41" value="화이트 리스트 방식 기반으로&amp;nbsp;&lt;div&gt;허용된 HTML 요소만을 추출&lt;/div&gt;&lt;div&gt;(SAX 방식으로 XML 읽음)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=default;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="917" y="685" width="190.5" height="57" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
