@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-18T16:55:52.155Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="Swb8frarm-64s8J0WIQv" version="24.0.7" type="github" pages="14">
+<mxfile host="app.diagrams.net" modified="2024-04-10T19:03:21.345Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="dzx-A755DYxn0PkwwyWX" version="24.2.0" type="github" pages="14">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1674" dy="746" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="746" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -1681,7 +1681,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="B1K7L44zj-2HhFw1s9mo" name="페이지-12">
-    <mxGraphModel dx="1674" dy="746" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="746" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1775,7 +1775,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="IxYp7RIIvLAR_aX3hXzN" name="페이지-13">
-    <mxGraphModel dx="1674" dy="746" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="746" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1854,11 +1854,80 @@
         <mxCell id="lKaYHWD1CFKPNMugEMsY-27" value="N : 1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="166" y="325" width="122" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="vWr9TqAz6puDHFCJzF4N-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vWr9TqAz6puDHFCJzF4N-1" target="vWr9TqAz6puDHFCJzF4N-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vWr9TqAz6puDHFCJzF4N-1" value="비지니스 로직&lt;div&gt;(Service Layer)&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="213" y="605" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vWr9TqAz6puDHFCJzF4N-2" value="온콜 발행 로직&lt;div&gt;(Publisher)&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="605" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vWr9TqAz6puDHFCJzF4N-4" value="&lt;div&gt;데이터 전달&lt;/div&gt;result, type, date" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="347" y="595" width="125" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vWr9TqAz6puDHFCJzF4N-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vWr9TqAz6puDHFCJzF4N-6" target="vWr9TqAz6puDHFCJzF4N-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vWr9TqAz6puDHFCJzF4N-6" value="비지니스 로직&lt;div&gt;(Service Layer)&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="52" y="776" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vWr9TqAz6puDHFCJzF4N-7" value="온콜 발행 로직&lt;div&gt;(Publisher)&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="642" y="776" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vWr9TqAz6puDHFCJzF4N-8" value="&lt;div&gt;데이터 전달&lt;/div&gt;result, type, date,&amp;nbsp;&lt;div&gt;&lt;font color=&quot;#3333ff&quot;&gt;failure_point, on_call, resource, operation, reason(object), extra_info(obejct)&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="192" y="762" width="435" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vWr9TqAz6puDHFCJzF4N-9" value="호출하는 측에서 일일이 넘겨줘야 하는 데이터가 많아짐에 따라&lt;div&gt;호출하는 측 로직이 비대해져 개발 생산성 및 가독성 저하&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="210" y="886" width="390" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vWr9TqAz6puDHFCJzF4N-10" value="(기존) 비지니스 코드가 온콜 발행 로직을 직접 호출하는 구조" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="207" y="549" width="390" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vWr9TqAz6puDHFCJzF4N-11" value="" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="382" y="820" width="60" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="vWr9TqAz6puDHFCJzF4N-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vWr9TqAz6puDHFCJzF4N-13" target="vWr9TqAz6puDHFCJzF4N-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vWr9TqAz6puDHFCJzF4N-13" value="비지니스 로직&lt;div&gt;(Service Layer)&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="58" y="984" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vWr9TqAz6puDHFCJzF4N-14" value="온콜 발행 로직&lt;div&gt;(Publisher)&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="646" y="984" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vWr9TqAz6puDHFCJzF4N-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vWr9TqAz6puDHFCJzF4N-16" target="vWr9TqAz6puDHFCJzF4N-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vWr9TqAz6puDHFCJzF4N-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vWr9TqAz6puDHFCJzF4N-16" target="vWr9TqAz6puDHFCJzF4N-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vWr9TqAz6puDHFCJzF4N-16" value="&lt;div&gt;퍼사드&lt;/div&gt;&lt;div&gt;(Facade)&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="984" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vWr9TqAz6puDHFCJzF4N-19" value="&lt;div&gt;온콜 메시지 팩토리&lt;/div&gt;&lt;div&gt;(OnCallMessageFactory)&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="334" y="1126" width="172" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vWr9TqAz6puDHFCJzF4N-21" value="최종 온콜 메시지 전달&lt;div&gt;(OnCallMessage)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="496" y="976" width="131" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vWr9TqAz6puDHFCJzF4N-22" value="데이터 전달&lt;div&gt;(result, type, on_call)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="195" y="972" width="131" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vWr9TqAz6puDHFCJzF4N-23" value="온콜 메시지 생성 요청" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="434" y="1066" width="131" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vWr9TqAz6puDHFCJzF4N-25" value="" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="1211" width="60" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="vWr9TqAz6puDHFCJzF4N-26" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;온콜 메시지 관련 각종 데이터 생성을 추상화함으로써&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;호출하는 측에서 일일이 넘거줘야 하는 데이터를 최소화&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="217" y="1277" width="390" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="YpYlGJkfUrX2nyPlZz0j" name="페이지-14">
-    <mxGraphModel dx="1674" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
